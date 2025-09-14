@@ -3,31 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
-        description: "A beautiful landing page app using React and Tailwind.",
+        title: "Policy Tracker",
+        description: "A web application that helps track, manage, and monitor clients' LIC policies, providing updates on premiums, maturity dates, and policy details for better organization and planning.",
         images: "/projects/project1.png",
-        tags: ["React", "TailwindCSS", "Supabase"],
+        tags: ["React", "TailwindCSS", "TypeScript"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/Bosevetrivelram47/premium"
     },
     {
         id: 2,
-        title: "Orbit Analytics Dashboard",
-        description: "Interactive analytics dashboard with data visulization and filtering capabilities.",
+        title: "Image Compressor",
+        description: "Developed a Java-based console application for lossy JPEG image compression, leveraging ImageIO and ImageWriter APIs to reduce file size while maintaining image quality.",
         images: "/projects/project2.png",
-        tags: ["TypeScript", "D3.js", "Next.js"],
+        tags: ["Java I/O Streams", "Byte Arrays"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/Bosevetrivelram47/image-compression"
     },
-    {
-        id: 3,
-        title: "E-commerce Platform",
-        description: "Full featured e-commerce platform with user authentication and image processing.",
-        images: "/projects/project3.png",
-        tags: ["React", "Node.js", "Stripe"],
-        demoUrl: "#",
-        githubUrl: "#"
-    }
+    // {
+    //     id: 3,
+    //     title: "E-commerce Platform",
+    //     description: "Full featured e-commerce platform with user authentication and image processing.",
+    //     images: "/projects/project3.png",
+    //     tags: ["React", "Node.js", "Stripe"],
+    //     demoUrl: "#",
+    //     githubUrl: "#"
+    // }
 ];
 
 export const ProjectSection = () => {
@@ -41,7 +41,7 @@ export const ProjectSection = () => {
                     crafted with attention to detail, performance, and user experience.
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {projects.map((project, key) => (
                         <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                             <div className="h-48 overflow-hidden">
@@ -88,7 +88,7 @@ export const ProjectSection = () => {
 
                 <div className="text-center mt-12">
                     <a 
-                        href="https://github.com/BOSEVETRIVELRAM-M"
+                        href="https://github.com/Bosevetrivelram47"
                         target="_blank"
                         className="cosmic-button w-fit flex items-center mx-auto gap-2"
                     >

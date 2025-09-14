@@ -65,7 +65,7 @@ export const ContactSection = () => {
                                 href="tel:+91 96776 12345"
                                 className="text-muted-foreground hover:text-primary transition-colors"
                             >
-                                +91 96776 12345
+                                +91 96776 19160
                             </a>
                         </div>
                     </div>
@@ -88,10 +88,9 @@ export const ContactSection = () => {
                 <div className="pt-8">
                     <h4 className="font-medium mb-4">Connect With Me</h4>
                     <div className="flex space-x-4 justify-center">
-                        <a href="#" target="_blank"><Linkedin /></a>
+                        <a href="https://www.linkedin.com/in/bosevetrivelram47" target="_blank"><Linkedin /></a>
                         <a href="#" target="_blank"><Twitter /></a>
-                        <a href="#" target="_blank"><Instagram /></a>
-                        <a href="#" target="_blank"><Twitch /></a>
+                        <a href="https://www.instagram.com/bhuvi_bose_77/?next=%2F" target="_blank"><Instagram /></a>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, Cloudy } from "lucide-react";
 
 export const AboutSection = () => {
     return (
@@ -10,19 +10,14 @@ export const AboutSection = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">Passionate Web Developer & Tech Creator</h3>
+                        <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
 
                         <p className="text-muted-foreground">
-                            With over 5 years of experience in web development, I specialize
-                            in creating responsive, accessible, and performant web
-                            applications using modern technologies.
+                            With hands-on experience at Crayond, I contributed to building responsive and scalable web applications using React.js, Redux, and Zustand. I worked with modern UI libraries like MUI and HeroUI, focusing on clean architecture, reusable components, and optimized performance.
                         </p>
 
                         <p className="text-muted-foreground">
-                            I'm passionate about creating elegant solutions to complex
-                            problems, and I'm constantly learning new technologies and 
-                            techniques to stay at the forefront of the ever-evolving web 
-                            landscape.
+                            I’m passionate about developing seamless user experiences, integrating APIs for smooth frontend–backend communication, and continuously improving my skills to deliver efficient and reliable applications.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -30,7 +25,7 @@ export const AboutSection = () => {
                                 Get In Touch
                             </a>
 
-                            <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            <a href="/RESUME_BOSE (1).pdf" target="__blank" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download CV
                             </a>
                         </div>
@@ -57,14 +52,13 @@ export const AboutSection = () => {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <User className="h-6 w-6 text-primary"/>
+                                    <Cloudy className="h-6 w-6 text-primary"/>
                                 </div>
 
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                    <h4 className="font-semibold text-lg">Cloud</h4>
                                     <p className="text-muted-foreground">
-                                        Design intuitive user interfaces and seamless user
-                                        experiences.
+                                        Basic experience with AWS services like EC2, S3, RDS, Lambda, VPC, and Elastic Beanstalk.
                                     </p>
 
                                 </div>
